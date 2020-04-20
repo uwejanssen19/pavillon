@@ -1,0 +1,26 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Pavillon;Schreibwaren;
+FN:Schreibwaren Pavillon
+TITLE:Eigentümer
+TEL;TYPE=WORK,VOICE:++49 (0)89 88 14 91
+TEL;TYPE=WORK,FAX:++49 (0)89 834 95 19
+TEL;TYPE=WORK,MOBILE:
+ADR;TYPE=WORK:;;BACHBAUERNSTR. 2A
+81241 München
+
+E-Mail:
+schreibwaren-pavillon@gmx.de;;Bayern;;
+LABEL;TYPE=WORK:BACHBAUERNSTR. 2A
+81241 München
+
+E-Mail:
+schreibwaren-pavillon@gmx.de
+
+Bayern
+
+
+EMAIL;TYPE=PREF,INTERNET:schreibwaren-pavillon@gmx.de
+URL:http://schreibwaren-pavillon.de
+REV:2015-07-22T13:44:08+02:00Z
+END:VCARD

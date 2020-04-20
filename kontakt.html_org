@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="de-de">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="author" content="Uwe Janssen" />
+    <title>Schreibwaren-Pavillon - Kontakt</title>
+    <link rel="stylesheet" href="lib/css/system.css" />
+    <link rel="stylesheet" href="lib/css/general.css" />
+    <link rel="stylesheet" href="lib/css/template.css" type="text/css" />
+    <meta name="viewport" content="initial-scale = 1.0, maximum-scale = 1.0, user-scalable = no, width = device-width">
+    <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<link rel="stylesheet" href="lib/css/template.responsive.css" media="all">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=PT+Sans+Narrow%7CPT+Sans&amp;subset=latin">
+	    <script>if ('undefined' != typeof jQuery) document._artxJQueryBackup = jQuery;</script>
+    <script src="lib/js/jquery.js"></script>
+    <script>jQuery.noConflict();</script>
+    <script src="lib/js/script.js"></script>
+    <script>if (document._artxJQueryBackup) jQuery = document._artxJQueryBackup;</script>
+    <script src="lib/js/script.responsive.js"></script>
+    <script src="lib/js/check_Form.js"></script>
+
+  </head>
+  <body>
+    <div id="art-main">
+      <header class="art-header clearfix">
+        <div class="art-shapes">
+          <h1 class="art-headline" data-left="11.24%">
+            <a href="index.html">Schreibwaren Pavillon</a>
+          </h1>
+          <h2 class="art-slogan" data-left="73.8%">Bachbauernstr. 2a 81241 M&uuml;nchen +49 (0)89 88 14 91</h2>
+        </div>
+      </header>
+      <nav class="art-nav clearfix">
+        <div class="art-nav-inner">
+          <ul class="art-hmenu">
+            <li class="item-119 deeper parent">
+              <a href="index.html">Home</a>
+              <ul>
+                <li class="item-121 deeper parent">
+                  <a href="produkte.html">Produkte</a>
+                  <ul>
+                    <li class="item-123"><a href="druckerpatronen.html">Druckerpatronen</a></li>
+                  </ul>
+                </li>
+                <li class="item-125"><a href="produktliste.html">Produktliste</a></li>
+                <li class="item-127"><a href="produktvideos.html">Produktvideos</a></li>
+                <li class="item-160"><a href="galerie.html">Galerie</a></li>
+                <li class="item-161"><a href="anfahrt.html">Anfahrt</a></li>
+              </ul>
+            </li>
+            <li class="item-129"><a href="impress_oeffn.html">Impressum &amp; &Ouml;ffnungszeiten</a></li>
+            <li class="item-133 current active"><a class=" active" href="kontakt.html">Kontakt</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="art-sheet clearfix">
+        <div class="art-layout-wrapper clearfix">
+          <div class="art-content-layout">
+            <div class="art-content-layout-row">
+              <div class="art-layout-cell art-content clearfix">
+                <article class="art-post">
+                  <div class="art-postcontent clearfix">
+                    <div class="breadcrumbs">
+                      <span class="showHere">Aktuelle Seite: </span>
+                      <a href="index.html" class="pathway">Home</a> <img src="images/arrow.png" alt="Pfeil rechts"  /> 
+                      <span>Kontakt</span>
+                    </div>
+                  </div>
+                </article>
+                <!--article class="art-post art-messages">
+                  <div class="art-postcontent clearfix">
+                  	<div id="system-message-container"></div>
+                  </div>
+                  </article -->
+                <article class="art-post">
+                  <div class="art-postcontent clearfix">
+                    <div class="contact">
+                      <h2><span class="contact-name">Schreibwaren Pavillon</span></h2>
+                      <h3>Kontakt</h3>
+                      <div class="contact-address">
+                        <span class="jicons-text" >Adresse: 		</span>
+                        <address>
+                          <span class="contact-street">BACHBAUERNSTR. 2A<br />81241 M&uuml;nchen<br /><br />E-Mail:<br />schreibwaren-pavillon@gmx.de</span>
+                        </address>
+                      </div>
+                      <div class="contact-contactinfo">
+                        <p><span class="jicons-text" >Telefon:</span><span class="contact-telephone">+49 (0)89 88 14 91		</span>
+                        </p>
+                        <p>
+                          <span class="jicons-text" >
+                          Fax:</span>
+                          <span class="contact-fax">
+                          ++49 (0)89 834 95 19</span>
+                        </p>
+                        <p>
+                          <span class="jicons-text" >
+                          </span>
+                          <span class="contact-webpage">
+                          <a href="http://schreibwaren-pavillon.de" target="_blank">
+                          http://schreibwaren-pavillon.de</a>
+                          </span>
+                        </p>
+                      </div>
+                      Informationen herunterladen als:<a href="res/Schreibwaren_Pavillon.vcf">vCard</a>
+                      <p></p>
+                      <h3>Kontaktformular</h3>
+                      <div class="contact-form">
+                        <form id="contact-form" action="kontakt.php" method="post" class="form-validate" onsubmit="return checkForm(this);">
+                          <fieldset>
+                            <legend>Eine E-Mail senden. Alle mit * markierten Felder werden ben&ouml;tigt.</legend>
+                            <dl>
+                              <dt><label id="jform_contact_name-lbl" for="jform_contact_name" class="hasTip required" title="Name::Der Name">Name<span class="star">&#160;*</span></label></dt>
+                              <dd><input type="text" name="jform[contact_name]" id="jform_contact_name" value="" class="required" size="30"/></dd>
+                              <dt><label id="jform_contact_email-lbl" for="jform_contact_email" class="hasTip required" title="E-Mail::E-Mail f&uuml;r Kontakt">E-Mail<span class="star">&#160;*</span></label></dt>
+                              <dd><input type="text" name="jform[contact_email]" class="validate-email required" id="jform_contact_email" value="" size="30"/></dd>
+                              <dt><label id="jform_contact_emailmsg-lbl" for="jform_contact_emailmsg" class="hasTip required" title="Betreff::Einen Betreff f&uuml;r die E-Mail eingeben.">Betreff<span class="star">&#160;*</span></label></dt>
+                              <dd><input type="text" name="jform[contact_subject]" id="jform_contact_emailmsg" value="" class="required" size="60"/></dd>
+                              <dt><label id="jform_contact_message-lbl" for="jform_contact_message" class="hasTip required" title="Nachricht::Nachricht hier eingeben.">Nachricht<span class="star">&#160;*</span></label></dt>
+                              <dd><textarea name="jform[contact_message]" id="jform_contact_message" cols="50" rows="10" class="required"></textarea></dd>
+                              <dt></dt>
+                              <dd><button class="button validate art-button" type="submit">E-Mail senden</button>
+                                <input type="hidden" name="option" value="com_contact" />
+                                <input type="hidden" name="task" value="contact.submit" />
+                                <input type="hidden" name="return" value="" />
+                                <input type="hidden" name="id" value="1:janssen" />
+                                <input type="hidden" name="ad195696e2eef2e59e67d7ba4ebc0f71" value="1" />				
+                              </dd>
+                            </dl>
+                          </fieldset>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="art-footer clearfix"></footer>
+    </div>
+  </body>
+</html>
