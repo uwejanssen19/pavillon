@@ -37,8 +37,8 @@
           <h1 class="art-headline" data-left="11.24%">
             <a href="#art-main">Schreibwaren Pavillon</a>
           </h1>
-          <h2 class="art-slogan" data-left="73.8%">Bachbauernstr. 2a 81241 M&uuml;nchen +49 (0)89 88 14 91</h2>
-        </div>
+          <h2 class="art-slogan" data-left="73.8%">Bachbauernstr. 2d 81241 M&uuml;nchen +49 (0)89 88 14 91</h2>
+        </div>                
       </header>
       <nav class="art-nav clearfix">
         <div class="art-nav-inner">
@@ -60,8 +60,10 @@
             </li>
           <!-- set "display: <propvalue>; ..." to "display:inline; ..." in order to activate the <span> container OR "display:none;... to make it invisible -->
 
-            <li class="item-129"><a href="impress_oeffn.html">Impressum &amp; &Ouml;ffnungszeiten<span style="display:inline;color:yellow;font-weight: bold;font-size: small;">&nbsp;(NEU)</span></a></li>
-            <li class="item-133"><a href="DSE.html">Datenschutz</a></li>
+          <li style="display:none" class="item-134"><a href="#seminar_class_scripts" style="font-weight: bold;color:  #ff0;">Ge&auml;nderte &Ouml;ffnungszeiten für Montag, den 8.11.2021 beachten</a></li>
+          <li class="item-129"><a href="impress_oeffn.html">Impressum &amp; &Ouml;ffnungszeiten<span style="display:none;color:yellow;font-weight: bold;font-size: small;">&nbsp;<span style="font-style: italic">(NEU!)</span></span></a></li>
+          <li class="item-133"><a href="DSE.html">Datenschutz</a></li>
+
           </ul>
         </div>
       </nav>
@@ -305,19 +307,30 @@
                           <div class="art-content-layout-br" style="border-top-width: 1px; border-top-style: solid; border-top-color: #656565;margin-top: 10px; margin-bottom: 10px;"> </div>
                           <div class="art-content-layout">
                             <div class="art-content-layout-row">
+                                <!--  Normale Öffnungszeiten in <div id="normal_hours"> bis </div> -->
                               <!-- set "display: <propvalue>; ..." to "display:inline; ..." in order to activate the div container OR "display:none;... to make it invisible -->
-                              <div class="art-layout-cell" style="display:none;padding-right: 10px; padding-left: 10px; width: 50%;">
+                              <div id="normal_hours" class="art-layout-cell" style="display:inline;padding-right: 10px; padding-left: 10px; width: 50%;">
                                 <h3 style="padding-bottom: 5px; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #c0e2a2;">&Ouml;FFNUNGSZEITEN & KONTAKT</h3>
                                 <p>Wir sind f&uuml;r Sie da:<br />
                                     <br />Montag - Freitag:&nbsp;09:30 Uhr - 13:30 Uhr und 15:00 - 18:30 Uhr<br /> Samstag:&nbsp;09:30 Uhr - 14:00 Uhr</p>
                                 Schreibwaren-Pavillon<br /> Bachbauernstr. 2a<br /> 81241 M&uuml;nchen<br /><br /><span style="color: #03fc24" >Telefon: +49 (0)89 88 14 91<br /> Fax-Nr.: +49 (0)89 834 95 19</span>
                                 <p></p>
                               </div>
+                                <!--  Öffnungszeiten Schulanfang-->
                               <!-- set "display: <propvalue>; ..." to "display:inline; ..." in order to activate the div container OR "display:none;... to make it invisible -->
-                              <div class="art-layout-cell" style="display:inline;padding-right: 10px; padding-left: 10px; width: 50%;">
-                                  <h3 style="color: #ffff00;">Achtung: Neue &Ouml;ffnungszeiten wegen Schulanfang (nur von 14.9. bis 17.9.2021):</h3>
+                              <div id="schoolstart" class="art-layout-cell" style="display:none;padding-right: 10px; padding-left: 10px; width: 50%;">
+                                  <h3 style="color: #ff0;">Achtung: Neue &Ouml;ffnungszeiten wegen Schulanfang (nur von 13.9. bis 16.9.2022):</h3>
                                 <p style="padding: 5px; border-style: solid; border-width: 2px; border-color: #ff0; color: #fff">
                                     <br />Durchgehend von 09:30 Uhr bis 18:30 Uhr<br /> <!-- Samstag:&nsbp;09:30 Uhr - 14:00 Uhr -->
+                                    <br /><br />
+                                </p>
+                              </div>
+                                <!--  Zusätzliche Öffnungszeiten: -->
+                              <!-- set "display: <propvalue>; ..." to "display:inline; ..." in order to activate the div container OR "display:none;... to make it invisible -->
+                              <div id="seminar_class_scripts" class="art-layout-cell" style="display:none;padding-right: 10px; padding-left: 10px; width: 50%;">
+                                  <h3 style="color: #ff0;">Achtung: Neue zus&auml;tzliche &Ouml;ffnungszeiten wegen Seminararbeiten (nur am 8.11.2021):</h3>
+                                <p style="padding: 5px; border-style: solid; border-width: 2px; border-color: #ff0; color: #fff">
+                                    <br />Montag, den 8.11.2021 durchgehend von 09:30 Uhr bis 18:30 Uhr ge&ouml;ffnet<br /> <!-- Samstag:&nsbp;09:30 Uhr - 14:00 Uhr -->
                                     <br /><br />
                                 </p>
                               </div>
