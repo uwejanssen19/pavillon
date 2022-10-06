@@ -91,7 +91,7 @@ function makeHeader($p_from_name, $p_from_mail, $p_mail_subject) {
                     <h1 class="art-headline" data-left="11.24%">
                         <a href="index.html">Schreibwaren Pavillon</a>
                     </h1>
-                    <h2 class="art-slogan" data-left="73.8%">Bachbauernstr. 2a 81241 M&uuml;nchen +49 (0)89 88 14 91</h2>
+                    <h2 class="art-slogan" data-left="73.8%">Bachbauernstr. 2d 81241 M&uuml;nchen +49 (0)89 88 14 91</h2>
                 </div>
             </header>
             <nav class="art-nav clearfix">
@@ -144,7 +144,7 @@ function makeHeader($p_from_name, $p_from_mail, $p_mail_subject) {
                                             <div class="contact-address">
                                                 <span class="jicons-text" >Adresse: 		</span>
                                                 <address>
-                                                    <span class="contact-street">BACHBAUERNSTR. 2A<br />81241 M&uuml;nchen<br /><br />E-Mail:<br />schreibwaren-pavillon@gmx.de</span>
+                                                    <span class="contact-street">BACHBAUERNSTR. 2D<br />81241 M&uuml;nchen<br /><br />E-Mail:<br />schreibwaren-pavillon@gmx.de</span>
                                                 </address>
                                             </div>
                                             <div class="contact-contactinfo">
