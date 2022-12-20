@@ -65,7 +65,8 @@ function makeHeader($p_from_name, $p_from_mail, $p_mail_subject) {
         <meta name="viewport" content="initial-scale = 1.0, maximum-scale = 1.0, user-scalable = no, width = device-width">
         <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
         <link rel="stylesheet" href="lib/css/template.responsive.css" media="all">
-        <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=PT+Sans+Narrow%7CPT+Sans&amp;subset=latin">
+        <!-- link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=PT+Sans+Narrow%7CPT+Sans&amp;subset=latin"  -->
+       <link rel="stylesheet" type="text/css" href="lib/css/gfonts_ptsans.css" media="all">
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
         <!-- script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script -->
         <!-- script src="lib/js/bootstrap.min.js"></script> -->
